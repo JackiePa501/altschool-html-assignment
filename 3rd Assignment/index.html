@@ -1,51 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
-</head>
-<body>
-   <h1>Form</h1>
+  </head>
+  <body>
+    <a href="\1st Assignment\index.html">Home</a>
+    <h1>Form</h1>
 
     <form>
-        <label for="name"> Enter your name </label>
-        <input type="text"
-        name="name"
-        required
-        />
-        <br/>
+      <label for="name"> Enter your name </label>
+      <input type="text" name="name" required />
+      <br />
 
+      <label for="email"> Enter your email</label>
+      <input type="email" name="email" id="name" required />
+      <br />
 
-        <label for="email"> Enter your email</label>
-        <input type="email"
-        name="email"
-        id="name"
-        required
-        />
-        <br/>
+      <label for="message"> Type your message here</label>
+      <input type="text" id="message" required />
+      <br />
 
-        <label for="message"> Type your message here</label>
-        <input type="text"
-        id="message"
-        required
-        />
-        <br/>
+      <label for="tech track"> Select your tech track</label>
+      <select name="teck track" id="select-track">
+        <option value="backend">Backend Development</option>
+        <option value="frontend">Frontend Development</option>
+        <option value="product">Product Management</option>
+        <option value="design">Product Design</option>
+      </select>
 
-        <label for="tech track"> Select your tech track</label>
-        <select name="teck track" id="select-track">
-            <option value="backend"> Backend Development</option>
-            <option value="frontend">Frontend Development</option>
-            <option value="product">Product Management</option>
-            <option value="design">Product Design</option>
-        </select>
-
-        <br/>
-        <input type="submit"
-        value="submit"
-        />
-        
+      <br />
+      <input type="submit" value="submit" />
     </form>
-
-</body>
+  </body>
 </html>
